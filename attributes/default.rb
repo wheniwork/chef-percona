@@ -164,3 +164,5 @@ default["percona"]["cluster"]["wsrep_sst_method"]               = "rsync"
 default["percona"]["cluster"]["wsrep_node_name"]                = ""
 default["percona"]["cluster"]["innodb_locks_unsafe_for_binlog"] = 1
 default["percona"]["cluster"]["innodb_autoinc_lock_mode"]       = 2
+default["percona"]["cluster"]["wsrep_node_address"]             = ""
+default["percona"]["cluster"]["wsrep_sst_auth"]                 = "sstuser:s3cretPass"
